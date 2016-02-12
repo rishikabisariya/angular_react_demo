@@ -1,0 +1,23 @@
+<div>
+    <a ui-sref="inbox">Back to the inbox!</a>
+    <table>
+        <tr>
+            <th>From</th>
+            <td>
+                {{message.sender}}
+            </td>
+        </tr>
+        <tr>
+            <th>Subject</th>
+            <td>
+                {{message.subject}}
+            </td>
+        </tr>
+
+    </table>
+    <div>
+        <p>
+            {{message.body}}
+        </p>
+    </div>
+</div>

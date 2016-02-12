@@ -1,0 +1,23 @@
+{
+  "name": "angular-react-demo",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Charity Hilton <cahilton@regenstrief.org>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.0",
+    "angular-ui-router": "ui-router#^0.2.18",
+    "react": "^0.14.7"
+  }
+}
